@@ -1,0 +1,28 @@
+[
+  {
+    "isActive": "Y",
+    "companyBranchId": "cb0001",
+    "createdBy": "Kar Admin, Kar Admin",
+    "updatedBy": "Kar Admin, Kar Admin",
+    "customerId": "24839930",
+    "customerName": "Autogen91296",
+    "customerCode": "1024062",
+    "prdBrand": "TOYOTA",
+    "materialType": "OEM",
+    "discount": "10",
+    "agreedDiscount": "15",
+    "turnOverDiscount": "5",
+    "priceListStatus": "ACTIVE",
+    "materialKcategoryName": "ALL",
+    "materialCategoryName": "ALL",
+    "materialCategoryId": "ALL",
+    "materialSubCategoryName": "ALL",
+    "materialSubCategoryId": "ALL",
+    "vehSegment": "PASSENGER VEHICLES",
+    "productBrandsId": 0,
+    "priceListName": "Autogen91296",
+    "priceListType": "REGULAR",
+    "type": "CUSTOMER",
+    "parentCompanyBranchId": "cb0001"
+  }
+]

@@ -1,0 +1,74 @@
+{
+
+  "data": "Data is fetched from json file ",
+  "Baseurl": "http\\://192.168.1.136\\:7070/ktest/rest",
+  "Customer_url": "http\\://192.168.1.136\\:7070/ktest/webapp_kb/templates/customer/btobcustomerinq_nocompany.html",
+  "DB_HOST": "127.0.0.1",
+  "DB_NAME": "ktestdb01",
+  "DB_PASSWORD": "kstagedbuser",
+  "DB_PORT": "3306",
+  "DB_USER": "kstagedbuser",
+  "DeliveryChallanNumber": "206262",
+  "DeliveryChallanRegularPrintURl": "http\\://192.168.1.136\\:7070/ktest/webapp_kb/templates/invoice/delivery-challan/printdeliverychallan.html",
+  "DeliveryPickListPrintUrl": "http\\://192.168.1.136\\:7070/ktest/webapp_kb/templates/print/invoice/picklist.html",
+  "EXCEL_DATA": "/src/test/resources/purchase_order_upload_template.xlsx",
+  "Home_url": "http\\://192.168.1.136\\:7070/ktest/webapp_kb/templates/home_nodashboard.html",
+  "SHEET_NAME": "Sheet1",
+  "UserName": "partsadmin",
+  "approvedby": "Koovers",
+  "code": "10000000",
+  "customername": "AutogenUserCredit",
+  "damagedStock": {
+    "updatemessage": "Stock updated successfull."
+  },
+  "damagedStockPage": {
+    "partcode": "AWK871019"
+  },
+
+  "deliverychallan": {
+    "cancelinvoicemessage": "Invoice cancelled successfully.",
+    "invoicecreatesuccessdmessage": "Invoice successfully created.",
+    "invoiceupdatedmessage": "Invoice successfully updated.",
+    "itemstatusupdatedmessage": "Item status updated successfully.",
+    "racknumber": "R"
+
+  },
+  "intraBranchstockentrypage": {
+    "racknumber": "R"
+  },
+  "intrabranchstockentry": {
+    "updatesuccessmessage": "Stock entry details successfully saved."
+  },
+  "intrabranchstockentrydc": {
+    "updatesuccessmessage": "Stock entry details successfully updated."
+  },
+  "materialdetails": "break pad",
+  "partcode": "AWK871019",
+  "password": "Kpartsadmin@321",
+  "polistmanager": {
+    "atleastoneitem": "Please add atleast one item to create a Purchase Order.",
+    "billingaddress": "bengaluru  Bengaluru Karnataka India 560100",
+    "billingerrormessage": "Please select the billing branch",
+    "createordesuccess": "Purchase order successfully created.",
+    "partName": "BRAKE PAD",
+    "partnumber": "AWK871019",
+    "shippingaddress": "bengaluru  Bengaluru Karnataka India 560100",
+    "stockentrysuccessfull": "Stock entry details successfully saved."
+  },
+  "rackStockTransferPage": {
+    "transfersuccessmessage": "Stock trasfer successfull."
+  },
+  "rackstocktransferpage": {
+    "racknumber": "R"
+  },
+  "stockentrybypartcode": {
+    "partnumber": "AWK871019",
+    "purchaseorderitemsuploadsuccessfullmessage": "Purchase order Items successfully uploaded.",
+    "racknumber": "R",
+    "updatesuccessmessage": "Stock entry details successfully updated."
+  },
+  "stockentrybypartcodepagevehicledetails": "AUDI",
+  "url": "http\\://192.168.1.136\\:7070/ktest/webapp_kb/index.html",
+  "vehiclenumber": "KA03MR1171",
+  "vendorName": "201017 -P L MOTORS LIMITED- 08AAACP8427B1ZM "
+}

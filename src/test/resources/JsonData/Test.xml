@@ -1,0 +1,71 @@
+<root>
+    <Data>Data is fetched from xml file</Data>
+    <Baseurl>http://192.168.1.136:7070/ktest/rest</Baseurl>
+    <Customer_url>http://192.168.1.136:7070/ktest/webapp_kb/templates/customer/btobcustomerinq_nocompany.html</Customer_url>
+    <DB_HOST>127.0.0.1</DB_HOST>
+    <DB_NAME>ktestdb01</DB_NAME>
+    <DB_PASSWORD>kstagedbuser</DB_PASSWORD>
+    <DB_PORT>3306</DB_PORT>
+    <DB_USER>kstagedbuser</DB_USER>
+    <DeliveryChallanNumber>206262</DeliveryChallanNumber>
+    <DeliveryChallanRegularPrintURl>http://192.168.1.136:7070/ktest/webapp_kb/templates/invoice/delivery-challan/printdeliverychallan.html</DeliveryChallanRegularPrintURl>
+    <DeliveryPickListPrintUrl>http://192.168.1.136:7070/ktest/webapp_kb/templates/print/invoice/picklist.html</DeliveryPickListPrintUrl>
+    <EXCEL_DATA>/src/test/resources/purchase_order_upload_template.xlsx</EXCEL_DATA>
+    <Home_url>http://192.168.1.136:7070/ktest/webapp_kb/templates/home_nodashboard.html</Home_url>
+    <SHEET_NAME>Sheet1</SHEET_NAME>
+    <UserName>partsadmin</UserName>
+    <approvedby>Koovers</approvedby>
+    <code>10000000</code>
+    <customername>AutogenUserCredit</customername>
+    <damagedStock>
+        <updatemessage>Stock updated successfully.</updatemessage>
+    </damagedStock>
+    <damagedStockPage>
+        <partcode>AWK871019</partcode>
+    </damagedStockPage>
+    <deliverychallan>
+        <cancelinvoicemessage>Invoice cancelled successfully.</cancelinvoicemessage>
+        <invoicecreatesuccessdmessage>Invoice successfully created.</invoicecreatesuccessdmessage>
+        <invoiceupdatedmessage>Invoice successfully updated.</invoiceupdatedmessage>
+        <itemstatusupdatedmessage>Item status updated successfully.</itemstatusupdatedmessage>
+        <racknumber>R</racknumber>
+    </deliverychallan>
+    <intraBranchstockentrypage>
+        <racknumber>R</racknumber>
+    </intraBranchstockentrypage>
+    <intrabranchstockentry>
+        <updatesuccessmessage>Stock entry details successfully saved.</updatesuccessmessage>
+    </intrabranchstockentry>
+    <intrabranchstockentrydc>
+        <updatesuccessmessage>Stock entry details successfully updated.</updatesuccessmessage>
+    </intrabranchstockentrydc>
+    <materialdetails>break pad</materialdetails>
+    <partcode>AWK871019</partcode>
+    <password>Kpartsadmin@321</password>
+    <polistmanager>
+        <atleastoneitem>Please add atleast one item to create a Purchase Order.</atleastoneitem>
+        <billingaddress>bengaluru  Bengaluru Karnataka India 560100</billingaddress>
+        <billingerrormessage>Please select the billing branch</billingerrormessage>
+        <createordesuccess>Purchase order successfully created.</createordesuccess>
+        <partName>BRAKE PAD</partName>
+        <partnumber>AWK871019</partnumber>
+        <shippingaddress>bengaluru  Bengaluru Karnataka India 560100</shippingaddress>
+        <stockentrysuccessfull>Stock entry details successfully saved.</stockentrysuccessfull>
+    </polistmanager>
+    <rackStockTransferPage>
+        <transfersuccessmessage>Stock transfer successful.</transfersuccessmessage>
+    </rackStockTransferPage>
+    <rackstocktransferpage>
+        <racknumber>R</racknumber>
+    </rackstocktransferpage>
+    <stockentrybypartcode>
+        <partnumber>AWK871019</partnumber>
+        <purchaseorderitemsuploadsuccessfullmessage>Purchase order items successfully uploaded.</purchaseorderitemsuploadsuccessfullmessage>
+        <racknumber>R</racknumber>
+        <updatesuccessmessage>Stock entry details successfully updated.</updatesuccessmessage>
+    </stockentrybypartcode>
+    <stockentrybypartcodepagevehicledetails>AUDI</stockentrybypartcodepagevehicledetails>
+    <url>http://192.168.1.136:7070/ktest/webapp_kb/index.html</url>
+    <vehiclenumber>KA03MR1171</vehiclenumber>
+    <vendorName>201017 -P L MOTORS LIMITED- 08AAACP8427B1ZM</vendorName>
+</root>
