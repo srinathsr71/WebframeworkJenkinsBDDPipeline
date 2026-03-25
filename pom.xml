@@ -56,6 +56,19 @@
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>${version.maven-surefire-plugin}</version>
                     <configuration>
+                        <systemPropertyVariables>
+
+                            <browser>${browser}</browser>
+
+                            <browserMode>${browserMode}</browserMode>
+
+                            <cucumber.filter.tags>${cucumber.filter.tags}</cucumber.filter.tags>
+
+                            <cucumber.features>${cucumber.features}</cucumber.features>
+
+                            <credsFilePath>${credsFilePath}</credsFilePath>
+
+                        </systemPropertyVariables>
 
                         <properties>
                             <property>
