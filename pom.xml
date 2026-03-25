@@ -56,21 +56,19 @@
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>${version.maven-surefire-plugin}</version>
                     <configuration>
-                        <systemPropertyVariables>
 
-                            <browser>${browser}</browser>
-
-                            <browserMode>${browserMode}</browserMode>
-
-                            <cucumber.filter.tags>${cucumber.filter.tags}</cucumber.filter.tags>
-
-                            <cucumber.features>${cucumber.features}</cucumber.features>
-
-                            <credsFilePath>${credsFilePath}</credsFilePath>
-
-                        </systemPropertyVariables>
 
                         <properties>
+                            <browser>CHROME</browser>
+
+                            <browserMode>headless</browserMode>
+
+                            <cucumber.filter.tags>@cart</cucumber.filter.tags>
+
+                            <cucumber.features>src/test/java/scenarios/features</cucumber.features>
+
+                            <credsFilePath>src/test/resources/Credentials.properties.txt</credsFilePath>
+
                             <property>
                                 <name>dataproviderthreadcount</name>
                                 <value>${threadCount}</value>
