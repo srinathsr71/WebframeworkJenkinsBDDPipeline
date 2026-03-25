@@ -51,7 +51,7 @@ public class DriverFactory {
                 chromeOptions.setExperimentalOption("prefs", prefs);
                 chromeOptions.setPageLoadStrategy(PageLoadStrategy.NORMAL);
                 if (System.getProperty("browserMode", "normal").equalsIgnoreCase("headless")) {
-                    chromeOptions.addArguments("--headless");
+                    chromeOptions.addArguments("--headless=new");
                     chromeOptions.addArguments("window-size=1920,1080");
                     chromeOptions.addArguments("--disable-gpu");
                 }
