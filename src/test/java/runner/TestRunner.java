@@ -11,7 +11,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(plugin = { "pretty", "json:target/Reports/cucumber-report.json", "html:target/cucumber/cucumber.html",
         "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
         "rerun:@target/failed_scenarios.txt" }, glue = { "scenarios",
-                "hooks" }, tags = "@login", features = "src/test/java/scenarios")
+                "hooks" })
 public class TestRunner extends AbstractTestNGCucumberTests {
     @BeforeClass
     public void setupBeforeClass() {
